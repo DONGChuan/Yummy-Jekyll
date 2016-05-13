@@ -93,7 +93,12 @@
 }
 
 .jumbotron .meta-info {
+    font-size: 20px;
     margin-right: 15px
+}
+
+.jumbotron.meta-info, .jumbotron .meta-info .octicon {
+    font-size: 18px;
 }
 
 /** Footer **/
@@ -115,4 +120,30 @@
 
 .site-footer .octicon-mark-github:hover {
     color:#bbb;
+}
+
+/** Post List **/
+.post-list-item {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    list-style: none;
+    border-bottom: 1px solid #eee;
+}
+
+.post-list-description {
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #666
+}
+
+.post-list-meta {
+    margin-top: 8px;
+    margin-bottom: 0;
+    color: #888
+}
+
+.post-list-meta, .post-list-meta.octicon {
+    font-size: 18px;
 }

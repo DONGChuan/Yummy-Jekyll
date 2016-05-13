@@ -2,7 +2,7 @@
 layout: default
 menu: home
 ---
-<div class="jumbotron">
+<section class="jumbotron">
     <div class="container">
         <h1>I'm a Cool Boy :P</h1>
         <div id="jumbotron-meta-info">
@@ -20,16 +20,63 @@ menu: home
             </span>
         </div>
     </div>
-</div>
-<div>p</div>
-<div>p</div>
-<div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div>
-<div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div>
-<div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div>
-<div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div>
-<div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div>
-<div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div>
-<div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div>
-<div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div>
-<div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div><div>p</div>
+</section>
+<section class="content container">
+
+    <div class="row">
+
+        <!-- Post List -->
+        <div class="col-md-8">
+                {% for post in paginator.posts %}
+                        <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                        {{ post.excerpt | strip_html | strip }}
+                    </p>
+                        <span class="octicon octicon-calendar"></span> {{ post.date | date: "%Y/%m/%d" }}
+                    </p>
+                </li>
+                {% endfor %}
+            </ol>
+        </div>
+        <div class="col-md-4">
+        </div>
+    </div>
+
+    <!-- Pagination -->
+    <div class="pagination text-align">
+        <div class="btn-group">
+
+            {% if paginator.previous_page %}
+            {% if paginator.previous_page == 1 %}
+            <a href="/" class="btn btn-outline">&laquo;</a>
+            {% else %}
+            <a href="/page{{paginator.previous_page}}" class="btn btn-outline">&laquo;</a>
+            {% endif %}
+            {% else %}
+            <button disabled="disabled" href="javascript:;" class="btn btn-outline">&laquo;</button>
+            {% endif %}
+
+            {% if paginator.page == 1 %}
+            <a href="javascript:;" class="active btn btn-outline">1</a>
+            {% else %}
+            <a href="/" class="btn btn-outline">1</a>
+            {% endif %}
+
+            {% for count in (2..paginator.total_pages) %}
+            {% if count == paginator.page %}
+            <a href="javascript:;" class="active btn btn-outline">{{count}}</a>
+            {% else %}
+            <a href="/page{{count}}" class="btn btn-outline">{{count}}</a>
+            {% endif %}
+            {% endfor %}
+
+            {% if paginator.next_page %}
+            <a href="/page{{paginator.next_page}}" class="btn btn-outline">&raquo;</a>
+            {% else %}
+            <button disabled="disabled" href="javascript:;" class="btn btn-outline">&raquo;</button>
+            {% endif %}
+
+        </div>
+    </div>
+
+</section>
 

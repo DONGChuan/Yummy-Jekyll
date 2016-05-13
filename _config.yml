@@ -16,11 +16,18 @@ github_url: https://github.com/DONGChuan
 
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 
+## Gem
+gems:
+  - jekyll-paginate
+
 # Build settings
 markdown: kramdown
 
+# Pagination
+paginate: 10
+paginate_path: 'page:num'
+
 # Navigation
-# navigation
 navs:
   -
     href: /
