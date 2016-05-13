@@ -128,20 +128,23 @@
     padding-top: 30px;
     padding-bottom: 30px;
     list-style: none;
-    border-bottom: 1px solid #eee;
+}
+
+.post-list-title a {
+    text-decoration: none;
 }
 
 .post-list-description {
     margin-top: 8px;
     margin-bottom: 0;
     font-size: 18px;
-    color: #666
+    color: #666;
 }
 
 .post-list-meta {
     margin-top: 8px;
     margin-bottom: 0;
-    color: #888
+    color: #888;
 }
 
 .post-list-meta, .post-list-meta.octicon {

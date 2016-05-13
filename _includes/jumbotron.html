@@ -1,0 +1,22 @@
+<section class="jumbotron" geo-pattern="{{ page.title }}">
+    <div class="container">
+        <div id="jumbotron-meta-info">
+            <span class="meta-info">
+                <span class="octicon octicon-location"></span>
+                {{ site.location }}
+            </span>
+            <span class="meta-info hvr-grow">
+                <span class="octicon octicon-organization"></span>
+                <a href="{{ site.company_url }}" target="_blank">{{ site.company }}</a>
+            </span>
+            <span class="meta-info hvr-grow">
+                <span class="octicon octicon-mark-github"></span>
+                <a href="{{ site.github_url }}" target="_blank">@{{ site.name }}</a>
+            </span>
+        </div>
+    </div>
+</section>
+<script type="text/javascript">
+    var geoPattern = $(".jumbotron").attr("geo-pattern");
+    $(".jumbotron").css("background-image", "url(data:image/svg+xml;base64,{% base64_geo_pattern text="+ geoPattern +" %}");
+</script>

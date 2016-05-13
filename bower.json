@@ -20,6 +20,7 @@
   "dependencies": {
     "bootstrap": "^3.3.6",
     "octicons": "^3.5.0",
-    "hover": "^2.0.2"
+    "hover": "^2.0.2",
+    "geopattern": "^1.2.3"
   }
 }

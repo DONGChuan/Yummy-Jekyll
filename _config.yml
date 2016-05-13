@@ -14,11 +14,12 @@ company: MyCompany
 company_url: https://github.com/DONGChuan
 github_url: https://github.com/DONGChuan
 
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://localhost:4000" # the base hostname & protocol for your site
 
 ## Gem
 gems:
   - jekyll-paginate
+  - jekyll-geo-pattern
 
 # Build settings
 markdown: kramdown
