@@ -1,18 +1,17 @@
 <header class="site-header">
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#" title="{{ site.name }}">
-                        <span class="octicon octicon-mark-github"></span> {{ site.name }}
-                    </a>
-                </div>
-            </div>
+    <div class="container">
+        <a id="site-header-brand" href="/" title="{{ site.name }}">
+            <span class="octicon octicon-mark-github"></span> {{ site.name }}
+        </a>
+        <nav class="site-header-nav" role="navigation">
+            {% for nav in site.navs %}
+            <a href="{{ nav.href }}"
+               class="{% if page.menu == nav.label %} selected {% endif %} site-header-nav-item hvr-underline-from-center"
+               target="{{ nav.target | default: _self }}"
+               title="{{ nav.label }}">
+                {{ nav.label }}
+            </a>
+            {% endfor %}
         </nav>
+    </div>
 </header>

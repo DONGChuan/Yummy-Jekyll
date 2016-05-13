@@ -21,6 +21,25 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 
+# Navigation
+# navigation
+navs:
+  -
+    href: /
+    label: Home
+
+  -
+    href: /open-source
+    label: Open-Source
+
+  -
+    href: /blog
+    label: Blog
+
+  -
+    href: /about
+    label: About
+
 # Google Analytics
 analytics :
   provider : google

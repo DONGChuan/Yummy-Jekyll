@@ -19,6 +19,7 @@
   ],
   "dependencies": {
     "bootstrap": "^3.3.6",
-    "octicons": "^3.5.0"
+    "octicons": "^3.5.0",
+    "hover": "^2.0.2"
   }
 }

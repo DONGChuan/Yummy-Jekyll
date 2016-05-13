@@ -3,6 +3,59 @@
     padding: 0;
 }
 
+/** Header **/
+.site-header{
+    padding-top:20px;
+    padding-bottom:20px;
+    width: 100%;
+    position: fixed;
+    margin: 40px 0 30px 0;
+    top: 0;
+    left: 0 !important;
+    right: 0;
+    z-index: 103;
+
+    color: #fff;
+    background: #4183c4;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.site-header a {
+    text-decoration: none;
+}
+
+#site-header-brand {
+    float: left;
+    color: #fff;
+}
+
+#site-header-brand, #site-header-brand .octicon {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.site-header-nav{
+    float:right;
+    margin-bottom: -20px;
+}
+
+.site-header-nav-item {
+    color: rgba(255,255,255,.5);
+    display:inline-block;
+    padding:10px;
+    margin-left:1.25rem;
+    font-size: 20px;
+}
+
+/** Footer **/
 .site-footer{
     position:relative;
     margin-top:40px;
