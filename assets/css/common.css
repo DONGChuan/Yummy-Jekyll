@@ -18,3 +18,7 @@
     left: 50%;
     color: #ccc;
 }
+
+.site-footer .octicon-mark-github:hover {
+    color:#bbb;
+}
