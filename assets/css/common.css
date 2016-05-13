@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.site-footer{
+    position:relative;
+    margin-top:40px;
+    padding:40px 0;
+    font-size:12px;
+    line-height:1.5;
+    color:#777;
+    border-top:2px solid #eee
+}
+
+.site-footer .octicon-mark-github {
+    position: absolute;
+    left: 50%;
+    color: #ccc;
+}

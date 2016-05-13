@@ -11,6 +11,14 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- Third-Party CSS -->
-    <link rel="stylesheet" href="/assets/css/bower_components/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bower_components/octicons/octicons/octicons.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="/assets/css/common.css">
+
+    {% for css in page.css %}
+    <link rel="stylesheet" href="/assets/css/{{css}}">
+    {% endfor %}
 
 </head>

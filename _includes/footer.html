@@ -1,43 +1,28 @@
-<footer class="site-footer">
+<footer class="container">
 
-    <div class="wrapper">
+    <div class="site-footer">
 
-        <h2 class="footer-heading">{{ site.title }}</h2>
+        <div class="copyright pull-left">
+            © 2015-2016 <span>DONG Chuan</span>
+        </div>
 
-        <div class="footer-col-wrapper">
-            <div class="footer-col footer-col-1">
-                <ul class="contact-list">
-                    <li>{{ site.title }}</li>
-                    <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-                </ul>
-            </div>
+        <a href="https://github.com/DONGChuan" target="_blank" aria-label="view source code">
+            <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+        </a>
 
-            <div class="footer-col footer-col-2">
-                <ul class="social-media-list">
-                    {% if site.github_username %}
-                    <li>
-                        {% include icon-github.html username=site.github_username %}
-                    </li>
-                    {% endif %}
-
-                    {% if site.twitter_username %}
-                    <li>
-                        {% include icon-twitter.html username=site.twitter_username %}
-                    </li>
-                    {% endif %}
-                </ul>
-            </div>
-
-            <div class="footer-col footer-col-3">
-                <p>{{ site.description }}</p>
-            </div>
+        <div class="pull-right">
+            <a href="javascript:window.scrollTo(0,0)" >TOP</a>
         </div>
 
     </div>
 
     <!-- Third-Party JS -->
-    <script type="text/javascript" src="/assets/js/bower_components/jquery/jquery.min.js"></script>
-    <script type="text/javascript" src="/assets/js/bower_components/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    {% for javascript in page.javascript %}
+    <script src="/assets/js/{{javascript}}"></script>
+    {% endfor %}
 
     <!-- Google Analytics -->
     <div style="display:none">
