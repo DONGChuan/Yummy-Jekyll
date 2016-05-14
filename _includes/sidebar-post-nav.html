@@ -11,7 +11,7 @@
 
     $(document).ready(function(){
         $( "article h2" ).each(function( index ) {
-            $(".post-directory dl").append("<dt><a class=\"jumper\" href=#" +
+            $(".post-directory dl").append("<dt><a class=\"jumper\" hre=#" +
                     $(this).attr("id")
                     + ">"
                     + $(this).text()
@@ -20,7 +20,7 @@
             var children = $(this).nextUntil("h2", "h3")
 
             children.each(function( index ) {
-                $(".post-directory dl").append("<dd><a class=\"jumper\" href=#" +
+                $(".post-directory dl").append("<dd><a class=\"jumper\" hre=#" +
                         $(this).attr("id")
                         + ">"
                         + "&nbsp;&nbsp;- " + $(this).text()
@@ -48,15 +48,16 @@
             }
 
         });
+
+        $("a.jumper").on("click", function( e ) {
+
+            e.preventDefault();
+
+            $("body, html").animate({
+                scrollTop: ($( $(this).attr('hre') ).offset().top - 100)
+            }, 600);
+
+        });
     });
 
-    $(".jumper").on("click", function( e ) {
-
-        e.preventDefault();
-
-        $("body, html").animate({
-            scrollTop: $( $(this).attr('href') ).offset().top
-        }, 600);
-
-    });
 </script>
