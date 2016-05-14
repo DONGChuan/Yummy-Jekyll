@@ -15,8 +15,8 @@
     right: 0;
     z-index: 103;
 
-    color: #fff;
-    background: #4183c4;
+    color: #000;
+    background: #fff;
 
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -25,13 +25,17 @@
     transition: all 0.5s ease;
 }
 
+.site-header #site-header-brand {
+    color: #2e2e2e;
+    float: left;
+}
+
 .site-header a {
     text-decoration: none;
 }
 
-#site-header-brand {
-    float: left;
-    color: #fff;
+.site-header a:hover {
+    color: #4183c4;
 }
 
 #site-header-brand, #site-header-brand .octicon {
@@ -48,7 +52,7 @@
 }
 
 .site-header-nav-item {
-    color: rgba(255,255,255,.5);
+    color: #000;
     display:inline-block;
     padding:10px;
     margin-left:1.25rem;
@@ -66,14 +70,6 @@
     -o-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
     box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
 }
-
-.site-header.site-header-nav-scrolled a, .site-header.site-header-nav-scrolled#site-header-brand {
-    color: #2e2e2e !important;
-}
-
-.site-header.site-header-nav-scrolled a:hover {
-    color: #4183c4;
-}
 /******* Scroll End *******/
 
 /** Jumbotron **/
@@ -81,7 +77,6 @@
     padding-top: 200px;
     padding-bottom: 100px;
     color: #fff;
-    background: #4183c4;
 }
 
 .jumbotron a {
