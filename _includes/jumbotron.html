@@ -1,17 +1,11 @@
 <section class="jumbotron" geo-pattern="{{ page.title }}">
     <div class="container">
         <div id="jumbotron-meta-info">
+            <h1>{{ page.title }}</h1>
             <span class="meta-info">
-                <span class="octicon octicon-location"></span>
-                {{ site.location }}
-            </span>
-            <span class="meta-info hvr-grow">
-                <span class="octicon octicon-organization"></span>
-                <a href="{{ site.company_url }}" target="_blank">{{ site.company }}</a>
-            </span>
-            <span class="meta-info hvr-grow">
-                <span class="octicon octicon-mark-github"></span>
-                <a href="{{ site.github_url }}" target="_blank">@{{ site.name }}</a>
+                {% if page.date %}
+                <span class="octicon octicon-calendar"></span> {{ page.date | date: "%Y/%m/%d" }}
+                {% endif %}
             </span>
         </div>
     </div>
