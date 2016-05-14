@@ -20,7 +20,13 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="/assets/css/common.css">
 
+    <!-- CSS set in page -->
     {% for css in page.css %}
+    <link rel="stylesheet" href="/assets/css/{{css}}">
+    {% endfor %}
+
+    <!-- CSS set in layout -->
+    {% for css in layout.css %}
     <link rel="stylesheet" href="/assets/css/{{css}}">
     {% endfor %}
 
