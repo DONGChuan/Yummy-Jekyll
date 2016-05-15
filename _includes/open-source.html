@@ -3,9 +3,9 @@
         <div class="container">
             <div id="jumbotron-meta-info">
                 <h1>Open Source Projects</h1>
-            <span class="meta-info">
-                I have <span class="repo-count">0</span> projects on Github
-            </span>
+                <span class="meta-info">
+                    I have <span class="repo-count">0</span> projects on Github
+                </span>
             </div>
         </div>
     </section>
@@ -50,6 +50,8 @@
 
         // Enable bootstrap tooltip
         $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+
+        $('.repo-list').html("<h1 class='loading-info'>Loading .....</h1>");
 
         var repoList = $('<div class="collection-listing clearfix"></div>');
         var repoCount = 0;
