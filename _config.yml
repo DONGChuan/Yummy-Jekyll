@@ -22,7 +22,7 @@ gems:
   - jekyll-geo-pattern
   - rouge
   - kramdown
-
+  - jekyll-github-metadata
 # Build settings
 markdown: kramdown
 highlighter: rouge
