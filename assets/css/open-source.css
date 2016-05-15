@@ -1,0 +1,27 @@
+.card-image {
+    display: table;
+    height: 120px;
+    width: 100%;
+}
+
+.card-image .card-image-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.card-image h3 {
+    margin: 0;
+}
+
+.card-image a {
+    color: #fff;
+}
+
+.card-description {
+    height: 3em;
+    overflow: hidden;
+}
+
+.jumbotron h1, .jumbotron .meta-info {
+    color: #2b669a;
+}

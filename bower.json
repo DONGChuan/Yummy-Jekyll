@@ -21,6 +21,7 @@
     "bootstrap": "^3.3.6",
     "octicons": "^3.5.0",
     "hover": "^2.0.2",
-    "geopattern": "^1.2.3"
+    "geopattern": "^1.2.3",
+    "underscore": "^1.8.3"
   }
 }
