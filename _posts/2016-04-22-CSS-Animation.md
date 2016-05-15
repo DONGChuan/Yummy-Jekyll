@@ -35,7 +35,7 @@ Following example creates an animation called `changeColor` and assign it to `di
 {% highlight css %}
 @keyframes changeColor {
     0% {
-		background: red;
+        background: red;
 	}
 	60% {
 		background: blue;
