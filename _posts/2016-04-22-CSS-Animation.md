@@ -34,15 +34,15 @@ Following example creates an animation called `changeColor` and assign it to `di
 
 {% highlight css %}
 @keyframes changeColor {
-    0% {
-        background: red;
-	}
-	60% {
-		background: blue;
-	}
-	100%{
-	    background: green;
-	}
+  0% {
+    background: red;
+  }
+  60% {
+    background: blue;
+  }
+  100%{
+    background: green;
+  }
 }
 
 div:hover{
@@ -146,7 +146,7 @@ Add multiple animations to a selector with comma:
 
 {% highlight css %}
 div {
-	animation: animationA 2s, animationB 2s;
+  animation: animationA 2s, animationB 2s;
 }
 {% endhighlight %}
 
