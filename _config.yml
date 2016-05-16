@@ -39,6 +39,9 @@ kramdown:
   input: GFM
   enable_coderay: true
 
+# Disque
+disque: httpdongchuangithubio.disqus.com
+
 # Pagination
 paginate: 10
 paginate_path: 'page:num'
