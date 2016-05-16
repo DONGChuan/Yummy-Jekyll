@@ -154,3 +154,7 @@
 .geopattern {
     background-size: contain; /* To fix strange behavior when zoom in/out */
 }
+
+.sidebar-title {
+    text-align: center;
+}
