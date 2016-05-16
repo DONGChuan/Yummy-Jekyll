@@ -51,6 +51,10 @@
     opacity: 1;
 }
 
+.posts-content:hover .circle {
+    background: #4183c4;
+}
+
 /* Bubble Float Left - override animate.css */
 .bubble-float-left {
     display: inline-block;
