@@ -60,6 +60,10 @@
 }
 
 /******* Scroll Start *******/
+.site-header {
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
 .site-header.site-header-nav-scrolled {
     margin: 0;
     background-color: white;
