@@ -8,7 +8,11 @@ css: ['sidebar-post-nav.css']
     <div class="row">
 
         <div class="col-md-8 markdown-body">
+
             {{ content }}
+
+            <!-- Comments -->
+            {% include disqus-comments.html %}
         </div>
 
         <div class="col-md-4">
