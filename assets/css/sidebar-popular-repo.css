@@ -23,10 +23,6 @@
     overflow: hidden;
 }
 
-.jumbotron h1, .jumbotron .meta-info {
-    color: #2b669a;
-}
-
 .card .thumbnail {
     border: 1px solid rgba(0,0,0,0.075);
     border-bottom-color: rgba(0,0,0,0.125);

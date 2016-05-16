@@ -1,7 +1,7 @@
 ---
 layout: default
 menu: home
-css: ['index.css']
+css: ['index.css', 'sidebar-popular-repo.css']
 ---
 <section class="jumbotron">
     <div class="container">
@@ -28,6 +28,7 @@ css: ['index.css']
 
         <!-- Post List -->
         <div class="col-md-8">
+
             <ol class="post-list">
                 {% for post in paginator.posts %}
                 <li class="post-list-item">
@@ -43,13 +44,17 @@ css: ['index.css']
                 </li>
                 {% endfor %}
             </ol>
-        </div>
-        <div class="col-md-4">
-        </div>
-    </div>
 
-    <!-- Pagination -->
-    {% include pagination.html %}
+            <!-- Pagination -->
+            {% include pagination.html %}
+
+        </div>
+
+        <div class="col-md-4">
+            {% include sidebar-popular-repo.html %}
+        </div>
+
+    </div>
 
 </section>
 
