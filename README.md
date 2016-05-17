@@ -32,7 +32,7 @@ Before using it, you may need [Bower](http://bower.io/) and [Bundler](http://bun
 
 ## How to use
 
-### [Post Navigation Module](http://dongchuan.github.io/css/2016/04/22/CSS-Animation.html) to generat a quick directory of your post by titles/subtitles automatically.
+### [Post Navigation Module](http://dongchuan.github.io/css/2016/04/22/CSS-Animation.html)
 
 When writing post, please always follow this format:
 
@@ -41,9 +41,9 @@ Description about this post, blablabla
 
 ## Title A
 
-### Title A -1
+### Title A-1
 
-### Title A -2
+### Title A-2
 
 ## Title B
 
