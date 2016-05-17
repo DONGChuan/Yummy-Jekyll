@@ -28,7 +28,15 @@ Before using it, you may need [Bower](http://bower.io/) and [Bundler](http://bun
 6. Commit to your own Username.github.io repository.
 7. Then come back to star this theme!
 
+> For the moment, you could only test it on your local with internet connection. Bug will be fixed soon.
+
 ## ToDo
+
+- [ ] Support favicon
+- [ ] List posts by a specified tag
+- [ ] New module FootPrint to show your world around trips
+- [ ] Show projects from your orgnization on github. (Siderbar, in open-source page)
+- [ ] To fix bug - could only test on local with internet connected.
 
 ## License
 
