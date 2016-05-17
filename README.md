@@ -30,6 +30,36 @@ Before using it, you may need [Bower](http://bower.io/) and [Bundler](http://bun
 
 > For the moment, you could only test it on your local with internet connection. Bug will be fixed soon.
 
+## How to use
+
+### [Post Navigation Module](http://dongchuan.github.io/css/2016/04/22/CSS-Animation.html) to generat a quick directory of your post by titles/subtitles automatically.
+
+When writing post, please always follow this format:
+
+```
+Description about this post, blablabla
+
+## Title A
+
+### Title A -1
+
+### Title A -2
+
+## Title B
+
+### Title B-1
+
+```
+
+So, Title A, A-1, A-2, Title B, B-1 will be detected and created as a directory
+
+For example, post [CSS Animation](https://github.com/DONGChuan/DONGChuan.github.io/edit/master/_posts/2016-04-22-CSS-Animation.md)
+
+
+### [Bookmark Module](http://dongchuan.github.io/bookmark)
+
+To add new marks, you only need to edit [bookmark.md](https://github.com/DONGChuan/Yummy-Jekyll/blob/master/bookmark.md).
+
 ## ToDo
 
 - [ ] Support favicon
