@@ -5,7 +5,7 @@
 ## Notable Features
 
 * Compatible with Jekyll 3.x and GitHub Pages
-* Basd on Bootstrap
+* Based on Bootstrap
 * [Github Module](http://dongchuan.github.io/open-source) to show your popular projects in a single page and on sidebar automatically. (Datas are retreived by github metadata instead of by api calls, so no delay) 
 * [Post Module](http://dongchuan.github.io/blog) to show all your posts with timeline
 * [Bookmark Module](http://dongchuan.github.io/bookmark) to establish a quick mark about all libs/tools/books you like to use.
