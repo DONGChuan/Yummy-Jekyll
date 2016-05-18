@@ -20,6 +20,8 @@ Features in feature:
 
 Before using it, you may need [Bower](http://bower.io/) and [Bundler](http://bundler.io/) on your local to install dependencies.
 
+> When install dependencies by bundler, you could have problem about installing json. Check response of [Massimo Fazzolari on Stackoverflow](http://stackoverflow.com/questions/8100891/the-json-native-gem-requires-installed-build-tools) to quick fix your problem. (Please also use latest version instead of 1.9.3 mentioned in the response)
+
 1. Fork code and clone
 2. Run `bower install` to install all dependencies in [bower.json](https://github.com/DONGChuan/DONGChuan.github.io/blob/master/bower.json)
 3. Run `bundle install` to install all dependencies in [Gemfile](https://github.com/DONGChuan/DONGChuan.github.io/blob/master/Gemfile)
@@ -28,7 +30,7 @@ Before using it, you may need [Bower](http://bower.io/) and [Bundler](http://bun
 6. Commit to your own Username.github.io repository.
 7. Then come back to star this theme!
 
-> For the moment, you could only test it on your local with internet connection. Bug will be fixed soon.
+> For the moment, when you test on your local, you need to keep internet connection. Bug will be fixed soon.
 
 ## How to use
 
