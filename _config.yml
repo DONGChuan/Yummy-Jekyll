@@ -14,6 +14,7 @@ company: MyCompany
 company_url: my_company_website
 github_url: my_github_url # ex. https://github.com/DONGChuan
 description: description_of_your_web_site
+favicon: favicon.png # Image must be in assets/images
 
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000

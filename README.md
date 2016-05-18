@@ -67,7 +67,6 @@ To add new marks, you only need to edit [bookmark.md](https://github.com/DONGChu
 
 ## ToDo
 
-- [ ] Support favicon
 - [ ] List posts by a specified tag
 - [ ] New module FootPrint to show your world around trips
 - [ ] Show projects from your orgnization on github. (Siderbar, in open-source page)
