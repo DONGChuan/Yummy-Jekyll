@@ -20,11 +20,14 @@ Features in feature:
 
 Before using it, you may need [Bower](http://bower.io/) and [Bundler](http://bundler.io/) on your local to install dependencies.
 
-> When install dependencies by bundler, you could have problem about installing json. Check response of [Massimo Fazzolari on Stackoverflow](http://stackoverflow.com/questions/8100891/the-json-native-gem-requires-installed-build-tools) to quick fix your problem. (Please also use latest version instead of 1.9.3 mentioned in the response)
-
 1. Fork code and clone
 2. Run `bower install` to install all dependencies in [bower.json](https://github.com/DONGChuan/DONGChuan.github.io/blob/master/bower.json)
 3. Run `bundle install` to install all dependencies in [Gemfile](https://github.com/DONGChuan/DONGChuan.github.io/blob/master/Gemfile)
+
+> When install dependencies by bundler, you could have problem about installing json. Check response of [Massimo Fazzolari on Stackoverflow](http://stackoverflow.com/questions/8100891/the-json-native-gem-requires-installed-build-tools) to quick fix your problem. (Please also use latest version instead of 1.9.3 mentioned in the response)
+
+> You could also have error about 'jekyll-paginate'. It's because you may have other old version on your local. Uninstall the others. For more details, check [here](http://stackoverflow.com/questions/35401566/dont-have-jekyll-paginate-or-one-of-its-dependencies-installed)
+
 4. Update `_config.yml` with your own settings.
 5. Add posts in `/_posts`
 6. Commit to your own Username.github.io repository.
