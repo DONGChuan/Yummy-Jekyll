@@ -6,15 +6,18 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Yummy Theme
-name: DONGChuan
-email: dongchuan55@gmail.com
-location: Nice, France
+title: Yummy Theme # ex. I m Chuan
+name: Your Name # ex. DONGChuan
+email: my_email_address@lalala.com
+location: My location # ex. Nice, France
 company: MyCompany
-company_url: https://github.com/DONGChuan
-github_url: https://github.com/DONGChuan
+company_url: my_company_website
+github_url: my_github_url # ex. https://github.com/DONGChuan
 
-url: http://localhost:4000 # the base hostname & protocol for your site
+# The base hostname & protocol for your site
+# For local test, please use http://localhost:4000
+# For production, use your github page url. ex. http://dongchuan.github.io
+url: http://localhost:4000
 
 ## Gem
 gems:
@@ -41,13 +44,13 @@ kramdown:
   enable_coderay: true
 
 # Disque
-disque: httpdongchuangithubio.disqus.com
+disque: my_disque_settings # ex. httpdongchuangithubio.disqus.com
 
 # Pagination
 paginate: 10
 paginate_path: 'page:num'
 
-# Navigation
+# Navigation. If you do not like these modules, just remove them :D
 navs:
   -
     href: /
@@ -76,4 +79,4 @@ side_bar_repo_limit: 5 # Number of repos to show
 analytics :
   provider : google
   google :
-      tracking_id : 'UA-72165600-1'
+      tracking_id : 'tracking_id'  # ex. UA-72165600-X
