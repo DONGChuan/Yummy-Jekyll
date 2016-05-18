@@ -13,7 +13,7 @@
 * Support [Disqus Comment](https://disqus.com/home/explore/)
 * Support [Google Analytics](https://analytics.google.com/analytics/web/)
 
-Features in feature:
+Features in future:
 * A Footprint module to show all your travel around the world
 
 ## Install and setup
