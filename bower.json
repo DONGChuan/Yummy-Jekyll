@@ -23,6 +23,7 @@
     "hover": "^2.0.2",
     "geopattern": "^1.2.3",
     "underscore": "^1.8.3",
-    "primer-markdown": "^2.5.1"
+    "primer-markdown": "^2.5.1",
+    "flag-icon-css": "^2.3.1"
   }
 }

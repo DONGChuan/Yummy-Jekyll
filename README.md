@@ -58,7 +58,7 @@ Description about this post, blablabla
 
 So, Title A, A-1, A-2, Title B, B-1 will be detected and created as a directory
 
-For example, post [CSS Animation](https://github.com/DONGChuan/DONGChuan.github.io/edit/master/_posts/2016-04-22-CSS-Animation.md)
+For example, [a demo post](https://github.com/DONGChuan/DONGChuan.github.io/edit/master/_posts/2016-04-22-CSS-Animation.md)
 
 
 ### [Bookmark Module](http://dongchuan.github.io/bookmark)
