@@ -1,6 +1,12 @@
 # Yummy Jekyll Theme
 
-[Live Demo](http://dongchuan.github.io/)
+A Simple, BootStrap Based Theme. Especially for developers like to show their projects on website and like to take notes. There are also some magical features to discover. 
+
+## [Live Demo](http://dongchuan.github.io/)
+
+Open issues if you find bugs or hard to install jekyll or dependencies. :D
+
+Or contact: dongchuan55@gmail.com
 
 ## Notable Features
 
@@ -40,7 +46,30 @@ Before using it, you may need [Bower](http://bower.io/) and [Bundler](http://bun
 
 ## How to use
 
-### [Post Navigation Module](http://dongchuan.github.io/css/2016/04/22/CSS-Animation.html)
+#### Create a new post
+
+Create a `.md` file inside `_posts` folder.
+
+Name the file according to the standard jekyll format.
+
+```
+2016-01-19-i-love-yummy.md
+```
+
+Write the Front Matter and content in the file.
+
+```
+---
+layout: post
+title: Post title
+category: Category
+tags: [tag1, tag2]
+---
+```
+
+Please find examples [here](https://github.com/DONGChuan/DONGChuan.github.io/tree/master/_posts)
+
+#### [Post Navigation Module](http://dongchuan.github.io/css/2016/04/22/CSS-Animation.html)
 
 When writing post, please always follow this format:
 
@@ -63,16 +92,16 @@ So, Title A, A-1, A-2, Title B, B-1 will be detected and created as a directory
 
 For example, [a demo post](https://github.com/DONGChuan/DONGChuan.github.io/edit/master/_posts/2016-04-22-CSS-Animation.md)
 
-### [Github Module](http://dongchuan.github.io/open-source)
+#### [Github Module](http://dongchuan.github.io/open-source)
 
 This module will get automatically all your repository information from github. But to test on your local, you must keep internet connection. 
 In the future, it will also show the repositories you contributed a lot and the ones of your organization.
 
-### [Bookmark Module](http://dongchuan.github.io/bookmark)
+#### [Bookmark Module](http://dongchuan.github.io/bookmark)
 
 To add new marks, you only need to edit [bookmark.md](https://github.com/DONGChuan/Yummy-Jekyll/blob/master/bookmark.md).
 
-### Customize About page
+#### [Customize About Page](http://dongchuan.github.io/about)
 
 Feel free to customize about.me page to show yourself. You only need to modify [about.md](https://github.com/DONGChuan/Yummy-Jekyll/blob/master/about.md) and [about.html](https://github.com/DONGChuan/Yummy-Jekyll/blob/master/_includes/about.html)
 
