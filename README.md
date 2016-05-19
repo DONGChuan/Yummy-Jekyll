@@ -23,15 +23,18 @@ Before using it, you may need [Bower](http://bower.io/) and [Bundler](http://bun
 1. Fork code and clone
 2. Run `bower install` to install all dependencies in [bower.json](https://github.com/DONGChuan/DONGChuan.github.io/blob/master/bower.json)
 3. Run `bundle install` to install all dependencies in [Gemfile](https://github.com/DONGChuan/DONGChuan.github.io/blob/master/Gemfile)
-
-> When install dependencies by bundler, you could have problem about installing json. Check response of [Massimo Fazzolari on Stackoverflow](http://stackoverflow.com/questions/8100891/the-json-native-gem-requires-installed-build-tools) to quick fix your problem. (Please also use latest version instead of 1.9.3 mentioned in the response)
-
-> You could also have error about 'jekyll-paginate'. It's because you may have other old version on your local. Uninstall the others. For more details, check [here](http://stackoverflow.com/questions/35401566/dont-have-jekyll-paginate-or-one-of-its-dependencies-installed)
-
 4. Update `_config.yml` with your own settings.
 5. Add posts in `/_posts`
 6. Commit to your own Username.github.io repository.
 7. Then come back to star this theme!
+
+> When install dependencies by bundler or gem, you may have some errors depending on your environment.
+
+> Error about `json`. Check response of [Massimo Fazzolari on Stackoverflow](http://stackoverflow.com/questions/8100891/the-json-native-gem-requires-installed-build-tools) to quick fix your problem. (Please also use latest version instead of 1.9.3 mentioned in the response)
+  
+> Error about `jekyll-paginate`. Please check [here](http://stackoverflow.com/questions/35401566/dont-have-jekyll-paginate-or-one-of-its-dependencies-installed)
+
+> Error about `SSL_connect`. Please check [here](http://stackoverflow.com/questions/15305350/gem-install-fails-with-openssl-failure) and [here](http://railsapps.github.io/openssl-certificate-verify-failed.html)
 
 > For the moment, when you test on your local, you need to keep internet connection. Bug will be fixed soon.
 
@@ -60,10 +63,18 @@ So, Title A, A-1, A-2, Title B, B-1 will be detected and created as a directory
 
 For example, [a demo post](https://github.com/DONGChuan/DONGChuan.github.io/edit/master/_posts/2016-04-22-CSS-Animation.md)
 
+### [Github Module](http://dongchuan.github.io/open-source)
+
+This module will get automatically all your repository information from github. But to test on your local, you must keep internet connection. 
+In the future, it will also show the repositories you contributed a lot and the ones of your organization.
 
 ### [Bookmark Module](http://dongchuan.github.io/bookmark)
 
 To add new marks, you only need to edit [bookmark.md](https://github.com/DONGChuan/Yummy-Jekyll/blob/master/bookmark.md).
+
+### Customize About page
+
+Feel free to customize about.me page to show yourself. You only need to modify [about.md](https://github.com/DONGChuan/Yummy-Jekyll/blob/master/about.md) and [about.html](https://github.com/DONGChuan/Yummy-Jekyll/blob/master/_includes/about.html)
 
 ## ToDo
 
