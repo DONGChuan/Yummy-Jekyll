@@ -1,12 +1,14 @@
 # Yummy Jekyll Theme
 
-A Simple, BootStrap Based Theme. Especially for developers like to show their projects on website and like to take notes. There are also some magical features to discover. 
+A Simple, Bootstrap Based Theme. Especially for developers who like to show their projects on website and like to take notes. There are also some magical features to discover. 
 
 ## [Live Demo](http://dongchuan.github.io/)
 
-Open issues if you find bugs or hard to install jekyll or dependencies. :D
+Open issues if you find bugs or even have trouble installing jekyll or dependencies. :D
 
 Or contact: dongchuan55@gmail.com
+
+> Strongly suggest to fork and change project name to create your GitHub Pages instead of downloading it directly. Because in the future, I will develop many funny modules like 'footprint' to show your world wide trip. Could be easier to merge new features in the future.
 
 ## Notable Features
 
@@ -21,6 +23,9 @@ Or contact: dongchuan55@gmail.com
 
 Features in future:
 * A Footprint module to show all your travel around the world
+* Feature to share. (Facebook, twitter, evernote and so on)
+* (Not sure) A embeded todo list. (Not sure) to travel, to complete, to do for your parents, etc. To do in life!
+* Creative ideas to discuss with you :P
 
 ## Install and setup
 
