@@ -117,6 +117,12 @@ Feel free to customize about.me page to show yourself. You only need to modify [
 - [ ] Show projects from your orgnization on github. (Siderbar, in open-source page)
 - [ ] To fix bug - could only test on local with internet connected.
 
+## Contributor
+
+* [DONGChuan](https://github.com/DONGChuan)
+* [Mojtaba Koosej](https://github.com/mkoosej)
+* [shahsaurabh0605](https://github.com/shahsaurabh0605)
+
 ## License
 
 The Apache License 2.0
