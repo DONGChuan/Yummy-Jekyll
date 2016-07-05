@@ -7,20 +7,20 @@
 
 # Site settings
 title: Coder.Writer.Developer # ex. I m Chuan
-name: FanaticalGeek # ex. DONGChuan
+name: Sassigeek # ex. DONGChuan
 email: jus@fanaticalgeek.com
 location: United Kingdom # ex. Nice, France
-company: FanaticalWeb
-company_url: http://fanaticalweb.com
-github_url: https://github.com/fanaticalgeek # ex. https://github.com/DONGChuan
+company: Vencero
+company_url: http://vencero.com.com
+github_url: https://github.com/sassigeek # ex. https://github.com/DONGChuan
 description: Writings of a web developer
 favicon: favicon.png # Image must be in assets/images
-repository: fanaticalgeek/fanaticalgeek.github.io # ex. DONGChuan/DONGChuan.github.io
+repository: sassigeek/sassigeek.github.io # ex. DONGChuan/DONGChuan.github.io
 
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
 # For production, use your github page url. ex. http://dongchuan.github.io
-url: http://fanaticalgeek.github.io
+url: http://sassigeek.github.io
 
 ## Gem
 gems:
