@@ -9,6 +9,6 @@ With macOS Sierra, the usual option to allow apps downloaded from anywhere is no
 
 To enable 'install apps from anywhere' simply copy and paste the below code into the terminal. To load terminal pres CMD + Spacebar and type terminal and click enter. Then simply copy and paste and enter your password when prompted. 
 
-  sudo spctl --master-disable
+````sudo spctl --master-disable
 
 That's it. Happy installing! 
