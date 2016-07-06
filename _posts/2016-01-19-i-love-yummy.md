@@ -1,18 +1,14 @@
 ---
 layout: post
-title: Post title
-category: Category
-tags: [tag1, tag2]
+title: Disable Gatekeeper and Install Apps from anywhere (macOS Sierra)
+category: Apple
+tags: [macOS, Sierra]
 ---
 
-Description about this post, blablabla
+With macOS Sierra, the usual option to allow apps downloaded from anywhere is now disabled. It is not visible from System Preferences at the moment so the only way to activate it is through Terminal. It worth pointing out that this is only a beta relase and this may change overtime or be added back to System Preferences. There has been some discussion on Twitter from Apple engineers that state this is actually a bug and not the way macOS Sierra is intended to deal with unsigned apps from outside the mac AppStore. 
 
-## Title A
+To enable 'install apps from anywhere' simply copy and paste the below code into the terminal. To load terminal pres CMD + Spacebar and type terminal and click enter. Then simply copy and paste and enter your password when prompted. 
 
-### Title A-1
+  sudo spctl --master-disable
 
-### Title A-2
-
-## Title B
-
-### Title B-1
+That's it. Happy installing! 
