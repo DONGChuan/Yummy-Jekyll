@@ -6,8 +6,6 @@ tags:
 - css
 categories: CSS
 ---
-## Delete post revisions using your functions.php file
-
 Post revisions are super useful sometimes, but from time to time you might want to clean your database. Here’s a super easy way to delete all posts revisions.
 
 Open you functions.php file and paste the following code:
