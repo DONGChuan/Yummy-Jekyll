@@ -6,6 +6,8 @@ tags:
 - css
 categories: CSS
 ---
+### Delete post revisions via functions.php
+
 Post revisions are super useful sometimes, but from time to time you might want to clean your database. Here’s a super easy way to delete all posts revisions.
 
 Open you functions.php file and paste the following code:
@@ -14,7 +16,7 @@ Open you functions.php file and paste the following code:
 
 Save the file and open your blog homepage to run the code. Once done, there’s no need to keep the code snippet in your functions.php file, as it will always delete all post revisions. So simply remove it.
 
-## Automatically link Twitter usernames in WordPress
+### Automatically link Twitter usernames in WordPress
 
 Are you using Twitter a lot? Today’s recipe is a cool piece of code to automatically link Twitter usernames on your posts, pages, and comments.
 
