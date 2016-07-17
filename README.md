@@ -97,6 +97,8 @@ So, Title A, A-1, A-2, Title B, B-1 will be detected and created as a directory
 
 For example, [a demo post](https://github.com/DONGChuan/DONGChuan.github.io/edit/master/_posts/2016-04-22-CSS-Animation.md)
 
+But if you do not like it or your post is quite short. You want to hide this navigation to make your post occupy your full screen. You just need to set **no-post-nav:true** in the Front Matter of the post where you want to hide this feature :D
+
 #### [Github Module](http://dongchuan.github.io/open-source)
 
 This module will get automatically all your repository information from github. But to test on your local, you must keep internet connection. 
