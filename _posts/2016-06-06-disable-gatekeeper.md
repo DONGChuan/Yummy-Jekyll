@@ -2,6 +2,7 @@
 title: Disable Gatekeeper & Install Apps from anywhere
 date: '2016-06-06 00:00:00'
 layout: post
+no-post-nav: true
 tags:
 - macOS
 - Sierra
