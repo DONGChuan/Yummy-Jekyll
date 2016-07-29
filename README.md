@@ -124,6 +124,7 @@ Feel free to customize about.me page to show yourself. You only need to modify [
 * [DONGChuan](https://github.com/DONGChuan)
 * [Mojtaba Koosej](https://github.com/mkoosej)
 * [shahsaurabh0605](https://github.com/shahsaurabh0605)
+* [Z-Beatles](http://www.waynechu.cn/)
 
 ## License
 
