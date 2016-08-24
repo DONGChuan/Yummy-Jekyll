@@ -20,8 +20,8 @@
 }
 
 .post-directory dt:hover, dd:hover {
-    background: #333;
-    border-left: 5px solid #000;
+    background: #666;
+    border-left: 5px solid #111;
 }
 
 .post-directory dt:hover a, dd:hover a {
