@@ -9,10 +9,6 @@
     border-left: 5px solid #666;
     cursor: pointer;
     padding: 2px 5px 2px 15px;
-
-    -webkit-transition: all 0.3s ease-in;
-    -moz-transition: all 0.3s ease-in;
-    -o-transition: all 0.3s ease-in;
 }
 
 .post-directory a{
