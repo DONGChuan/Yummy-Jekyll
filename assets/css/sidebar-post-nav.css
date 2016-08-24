@@ -13,6 +13,8 @@
 
 .post-directory a{
     text-decoration: none;
+    display: inline-block;
+    width: 100%;
 }
 
 .post-directory dt:hover, dd:hover {
