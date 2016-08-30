@@ -74,6 +74,8 @@ tags: [tag1, tag2]
 
 Please find examples [here](https://github.com/DONGChuan/DONGChuan.github.io/tree/master/_posts)
 
+> Jekyll supports different structure of repository. You could just create as many folders as you want under _posts. Then jekyll will look through all folders/subfolders to find your posts. So cool, right? :D
+
 #### [Post Navigation Module](http://dongchuan.github.io/css/2016/04/22/CSS-Animation.html)
 
 When writing post, please always follow this format:
