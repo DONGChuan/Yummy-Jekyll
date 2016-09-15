@@ -128,6 +128,7 @@ Feel free to customize about.me page to show yourself. You only need to modify [
 * [shahsaurabh0605](https://github.com/shahsaurabh0605)
 * [Z-Beatles](http://www.waynechu.cn/)
 * [LM450N](https://github.com/LM450N)
+* [XhmikosR](https://github.com/XhmikosR)
 
 ## License
 
