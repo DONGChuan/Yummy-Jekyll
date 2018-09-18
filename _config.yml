@@ -47,8 +47,8 @@ kramdown:
   input: GFM
   enable_coderay: true
 
-# Disque
-disque: my_disque_settings # ex. httpdongchuangithubio.disqus.com
+# Disqus
+disqus: my_disqus_settings # ex. httpdongchuangithubio.disqus.com
 
 # Pagination
 paginate: 10
