@@ -1,0 +1,226 @@
+@font-face {
+  font-family 'octicons';
+  src url('octicons.eot#iefix') format('embedded-opentype'),
+       url('octicons.woff') format('woff'),
+       url('octicons.ttf') format('truetype'),
+       url('octicons.svg#octicons') format('svg');
+  font-weight normal;
+  font-style normal;
+}
+
+
+
+.octicon is optimized for 16px.
+.mega-octicon is optimized for 32px but can be used larger.
+
+
+.octicon, .mega-octicon {
+  font normal normal normal 16px1 octicons;
+  display inline-block;
+  text-decoration none;
+  text-rendering auto;
+  -webkit-font-smoothing antialiased;
+  -moz-osx-font-smoothing grayscale;
+  -webkit-user-select none;
+  -moz-user-select none;
+  -ms-user-select none;
+  user-select none;
+}
+.mega-octicon { font-size 32px; }
+
+.octicon-alertbefore { content 'f02d'}   
+.octicon-arrow-downbefore { content 'f03f'}   
+.octicon-arrow-leftbefore { content 'f040'}   
+.octicon-arrow-rightbefore { content 'f03e'}   
+.octicon-arrow-small-downbefore { content 'f0a0'}   
+.octicon-arrow-small-leftbefore { content 'f0a1'}   
+.octicon-arrow-small-rightbefore { content 'f071'}   
+.octicon-arrow-small-upbefore { content 'f09f'}   
+.octicon-arrow-upbefore { content 'f03d'}   
+.octicon-microscopebefore,
+.octicon-beakerbefore { content 'f0dd'}   
+.octicon-bellbefore { content 'f0de'}   
+.octicon-boldbefore { content 'f0e2'}   
+.octicon-bookbefore { content 'f007'}   
+.octicon-bookmarkbefore { content 'f07b'}   
+.octicon-briefcasebefore { content 'f0d3'}   
+.octicon-broadcastbefore { content 'f048'}   
+.octicon-browserbefore { content 'f0c5'}   
+.octicon-bugbefore { content 'f091'}   
+.octicon-calendarbefore { content 'f068'}   
+.octicon-checkbefore { content 'f03a'}   
+.octicon-checklistbefore { content 'f076'}   
+.octicon-chevron-downbefore { content 'f0a3'}   
+.octicon-chevron-leftbefore { content 'f0a4'}   
+.octicon-chevron-rightbefore { content 'f078'}   
+.octicon-chevron-upbefore { content 'f0a2'}   
+.octicon-circle-slashbefore { content 'f084'}   
+.octicon-circuit-boardbefore { content 'f0d6'}   
+.octicon-clippybefore { content 'f035'}   
+.octicon-clockbefore { content 'f046'}   
+.octicon-cloud-downloadbefore { content 'f00b'}   
+.octicon-cloud-uploadbefore { content 'f00c'}   
+.octicon-codebefore { content 'f05f'}   
+.octicon-comment-addbefore,
+.octicon-commentbefore { content 'f02b'}   
+.octicon-comment-discussionbefore { content 'f04f'}   
+.octicon-credit-cardbefore { content 'f045'}   
+.octicon-dashbefore { content 'f0ca'}   
+.octicon-dashboardbefore { content 'f07d'}   
+.octicon-databasebefore { content 'f096'}   
+.octicon-clonebefore,
+.octicon-desktop-downloadbefore { content 'f0dc'}   
+.octicon-device-camerabefore { content 'f056'}   
+.octicon-device-camera-videobefore { content 'f057'}   
+.octicon-device-desktopbefore { content 'f27c'}   
+.octicon-device-mobilebefore { content 'f038'}   
+.octicon-diffbefore { content 'f04d'}   
+.octicon-diff-addedbefore { content 'f06b'}   
+.octicon-diff-ignoredbefore { content 'f099'}   
+.octicon-diff-modifiedbefore { content 'f06d'}   
+.octicon-diff-removedbefore { content 'f06c'}   
+.octicon-diff-renamedbefore { content 'f06e'}   
+.octicon-ellipsisbefore { content 'f09a'}   
+.octicon-eye-unwatchbefore,
+.octicon-eye-watchbefore,
+.octicon-eyebefore { content 'f04e'}   
+.octicon-file-binarybefore { content 'f094'}   
+.octicon-file-codebefore { content 'f010'}   
+.octicon-file-directorybefore { content 'f016'}   
+.octicon-file-mediabefore { content 'f012'}   
+.octicon-file-pdfbefore { content 'f014'}   
+.octicon-file-submodulebefore { content 'f017'}   
+.octicon-file-symlink-directorybefore { content 'f0b1'}   
+.octicon-file-symlink-filebefore { content 'f0b0'}   
+.octicon-file-textbefore { content 'f011'}   
+.octicon-file-zipbefore { content 'f013'}   
+.octicon-flamebefore { content 'f0d2'}   
+.octicon-foldbefore { content 'f0cc'}   
+.octicon-gearbefore { content 'f02f'}   
+.octicon-giftbefore { content 'f042'}   
+.octicon-gistbefore { content 'f00e'}   
+.octicon-gist-secretbefore { content 'f08c'}   
+.octicon-git-branch-createbefore,
+.octicon-git-branch-deletebefore,
+.octicon-git-branchbefore { content 'f020'}   
+.octicon-git-commitbefore { content 'f01f'}   
+.octicon-git-comparebefore { content 'f0ac'}   
+.octicon-git-mergebefore { content 'f023'}   
+.octicon-git-pull-request-abandonedbefore,
+.octicon-git-pull-requestbefore { content 'f009'}   
+.octicon-globebefore { content 'f0b6'}   
+.octicon-graphbefore { content 'f043'}   
+.octicon-heartbefore { content '2665'}  ♥ 
+.octicon-historybefore { content 'f07e'}   
+.octicon-homebefore { content 'f08d'}   
+.octicon-horizontal-rulebefore { content 'f070'}   
+.octicon-hubotbefore { content 'f09d'}   
+.octicon-inboxbefore { content 'f0cf'}   
+.octicon-infobefore { content 'f059'}   
+.octicon-issue-closedbefore { content 'f028'}   
+.octicon-issue-openedbefore { content 'f026'}   
+.octicon-issue-reopenedbefore { content 'f027'}   
+.octicon-italicbefore { content 'f0e4'}   
+.octicon-jerseybefore { content 'f019'}   
+.octicon-keybefore { content 'f049'}   
+.octicon-keyboardbefore { content 'f00d'}   
+.octicon-lawbefore { content 'f0d8'}   
+.octicon-light-bulbbefore { content 'f000'}   
+.octicon-linkbefore { content 'f05c'}   
+.octicon-link-externalbefore { content 'f07f'}   
+.octicon-list-orderedbefore { content 'f062'}   
+.octicon-list-unorderedbefore { content 'f061'}   
+.octicon-locationbefore { content 'f060'}   
+.octicon-gist-privatebefore,
+.octicon-mirror-privatebefore,
+.octicon-git-fork-privatebefore,
+.octicon-lockbefore { content 'f06a'}   
+.octicon-logo-gistbefore { content 'f0ad'}   
+.octicon-logo-githubbefore { content 'f092'}   
+.octicon-mailbefore { content 'f03b'}   
+.octicon-mail-readbefore { content 'f03c'}   
+.octicon-mail-replybefore { content 'f051'}   
+.octicon-mark-githubbefore { content 'f00a'}   
+.octicon-markdownbefore { content 'f0c9'}   
+.octicon-megaphonebefore { content 'f077'}   
+.octicon-mentionbefore { content 'f0be'}   
+.octicon-milestonebefore { content 'f075'}   
+.octicon-mirror-publicbefore,
+.octicon-mirrorbefore { content 'f024'}   
+.octicon-mortar-boardbefore { content 'f0d7'}   
+.octicon-mutebefore { content 'f080'}   
+.octicon-no-newlinebefore { content 'f09c'}   
+.octicon-octofacebefore { content 'f008'}   
+.octicon-organizationbefore { content 'f037'}   
+.octicon-packagebefore { content 'f0c4'}   
+.octicon-paintcanbefore { content 'f0d1'}   
+.octicon-pencilbefore { content 'f058'}   
+.octicon-person-addbefore,
+.octicon-person-followbefore,
+.octicon-personbefore { content 'f018'}   
+.octicon-pinbefore { content 'f041'}   
+.octicon-plugbefore { content 'f0d4'}   
+.octicon-repo-createbefore,
+.octicon-gist-newbefore,
+.octicon-file-directory-createbefore,
+.octicon-file-addbefore,
+.octicon-plusbefore { content 'f05d'}   
+.octicon-primitive-dotbefore { content 'f052'}   
+.octicon-primitive-squarebefore { content 'f053'}   
+.octicon-pulsebefore { content 'f085'}   
+.octicon-questionbefore { content 'f02c'}   
+.octicon-quotebefore { content 'f063'}   
+.octicon-radio-towerbefore { content 'f030'}   
+.octicon-repo-deletebefore,
+.octicon-repobefore { content 'f001'}   
+.octicon-repo-clonebefore { content 'f04c'}   
+.octicon-repo-force-pushbefore { content 'f04a'}   
+.octicon-gist-forkbefore,
+.octicon-repo-forkedbefore { content 'f002'}   
+.octicon-repo-pullbefore { content 'f006'}   
+.octicon-repo-pushbefore { content 'f005'}   
+.octicon-rocketbefore { content 'f033'}   
+.octicon-rssbefore { content 'f034'}   
+.octicon-rubybefore { content 'f047'}   
+.octicon-search-savebefore,
+.octicon-searchbefore { content 'f02e'}   
+.octicon-serverbefore { content 'f097'}   
+.octicon-settingsbefore { content 'f07c'}   
+.octicon-shieldbefore { content 'f0e1'}   
+.octicon-log-inbefore,
+.octicon-sign-inbefore { content 'f036'}   
+.octicon-log-outbefore,
+.octicon-sign-outbefore { content 'f032'}   
+.octicon-smileybefore { content 'f0e7'}   
+.octicon-squirrelbefore { content 'f0b2'}   
+.octicon-star-addbefore,
+.octicon-star-deletebefore,
+.octicon-starbefore { content 'f02a'}   
+.octicon-stopbefore { content 'f08f'}   
+.octicon-repo-syncbefore,
+.octicon-syncbefore { content 'f087'}   
+.octicon-tag-removebefore,
+.octicon-tag-addbefore,
+.octicon-tagbefore { content 'f015'}   
+.octicon-tasklistbefore { content 'f0e5'}   
+.octicon-telescopebefore { content 'f088'}   
+.octicon-terminalbefore { content 'f0c8'}   
+.octicon-text-sizebefore { content 'f0e3'}   
+.octicon-three-barsbefore { content 'f05e'}   
+.octicon-thumbsdownbefore { content 'f0db'}   
+.octicon-thumbsupbefore { content 'f0da'}   
+.octicon-toolsbefore { content 'f031'}   
+.octicon-trashcanbefore { content 'f0d0'}   
+.octicon-triangle-downbefore { content 'f05b'}   
+.octicon-triangle-leftbefore { content 'f044'}   
+.octicon-triangle-rightbefore { content 'f05a'}   
+.octicon-triangle-upbefore { content 'f0aa'}   
+.octicon-unfoldbefore { content 'f039'}   
+.octicon-unmutebefore { content 'f0ba'}   
+.octicon-unverifiedbefore { content 'f0e8'}   
+.octicon-verifiedbefore { content 'f0e6'}   
+.octicon-versionsbefore { content 'f064'}   
+.octicon-watchbefore { content 'f0e0'}   
+.octicon-remove-closebefore,
+.octicon-xbefore { content 'f081'}   
+.octicon-zapbefore { content '26A1'}  ⚡ 
