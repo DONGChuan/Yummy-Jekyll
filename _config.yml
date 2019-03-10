@@ -15,7 +15,7 @@ company_url: #my_company_website
 github_url: https://github.com/MGXT # ex. https://github.com/DONGChuan
 github_username: mgxt
 description: 记录成长的点滴
-favicon: favicon.png # Image must be in assets/images
+favicon: 958413757.png # Image must be in assets/images
 repository: blog/mgxt.github.io # ex. DONGChuan/DONGChuan.github.io
 
 # The base hostname & protocol for your site
