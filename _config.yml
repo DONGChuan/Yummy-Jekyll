@@ -6,15 +6,15 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Yummy Theme # ex. I m Chuan
-name: Your Name # ex. DONGChuan
-email: my_email_address@lalala.com
-location: My location # ex. Nice, France
-company: MyCompany
-company_url: my_company_website
+title: Miracle # ex. I m Chuan
+name: Miracle # ex. DONGChuan
+email: 958413757@qq.com
+location: 四川 中国 # ex. Nice, France
+company: #
+company_url: #my_company_website
 github_url: https://github.com/MGXT # ex. https://github.com/DONGChuan
-github_username: MGXT
-description: description_of_your_web_site
+github_username: mgxt
+description: 记录成长的点滴
 favicon: favicon.png # Image must be in assets/images
 repository: blog/mgxt.github.io # ex. DONGChuan/DONGChuan.github.io
 
@@ -58,23 +58,23 @@ paginate_path: 'page:num'
 navs:
   -
     href: /
-    label: Home
+    label: 首页
 
   -
     href: /open-source
-    label: Open-Source
+    label: 开源项目
 
   -
     href: /blog
-    label: Blog
+    label: 博客
 
   -
     href: /bookmark
-    label: Bookmark
+    label: 书籍
 
   -
     href: /about
-    label: About
+    label: 关于
 
 # Sidebar to show popular repo
 side_bar_repo_limit: 5 # Number of repos to show
