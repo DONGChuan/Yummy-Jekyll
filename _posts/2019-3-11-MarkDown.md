@@ -1,11 +1,11 @@
 ---
 layout: post
 title: MarkDown
-category: MarkDown
-tags: [MarkDown]
+category: java
+tags: [java]
 ---
 
-Quick note about CSS animation. 
+Some Description here!
 
 ## MarkDown
 
@@ -23,7 +23,7 @@ Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered H
   - See HTML in the right
   - Magic
 
-## New Features!
+### New Features!
 
   - Import a HTML file and watch it magically convert to Markdown
   - Drag and drop images (requires your Dropbox account be linked)
@@ -119,7 +119,7 @@ $ gulp watch
 ```sh
 $ karma test
 ```
-#### Building for source
+### Building for source
 For production release:
 ```sh
 $ gulp build --prod
@@ -151,7 +151,7 @@ Verify the deployment by navigating to your server address in your preferred bro
 127.0.0.1:8000
 ```
 
-#### Kubernetes + Google Cloud
+### Kubernetes + Google Cloud
 
 See [KUBERNETES.md](https://github.com/joemccann/dillinger/blob/master/KUBERNETES.md)
 
@@ -161,7 +161,7 @@ See [KUBERNETES.md](https://github.com/joemccann/dillinger/blob/master/KUBERNETE
  - Write MORE Tests
  - Add Night Mode
 
-License
+## License
 ----
 
 MIT
