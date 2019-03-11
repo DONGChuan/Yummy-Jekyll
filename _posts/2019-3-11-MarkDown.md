@@ -7,7 +7,7 @@ tags: [MarkDown]
 
 Quick note about CSS animation. 
 
-# Dillinger
+## MarkDown
 
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 ```java
@@ -23,7 +23,7 @@ Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered H
   - See HTML in the right
   - Magic
 
-# New Features!
+## New Features!
 
   - Import a HTML file and watch it magically convert to Markdown
   - Drag and drop images (requires your Dropbox account be linked)
