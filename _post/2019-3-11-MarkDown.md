@@ -1,4 +1,12 @@
-# Dillinger
+---
+layout: post
+title: MarkDown
+category: CSS
+tags: [css]
+---
+
+
+## Dillinger
 
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 ```java
@@ -14,7 +22,7 @@ Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered H
   - See HTML in the right
   - Magic
 
-# New Features!
+## New Features!
 
   - Import a HTML file and watch it magically convert to Markdown
   - Drag and drop images (requires your Dropbox account be linked)
@@ -37,7 +45,7 @@ Markdown is a lightweight markup language based on the formatting conventions th
 
 This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.
 
-### Tech
+## Tech
 
 Dillinger uses a number of open source projects to work properly:
 
@@ -54,7 +62,7 @@ Dillinger uses a number of open source projects to work properly:
 And of course Dillinger itself is open source with a [public repository][dill]
  on GitHub.
 
-### Installation
+## Installation
 
 Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
 
@@ -73,7 +81,7 @@ $ npm install --production
 $ NODE_ENV=production node app
 ```
 
-### Plugins
+## Plugins
 
 Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
 
@@ -87,7 +95,7 @@ Dillinger is currently extended with the following plugins. Instructions on how 
 | Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
 
 
-### Development
+## Development
 
 Want to contribute? Great!
 
@@ -110,7 +118,7 @@ $ gulp watch
 ```sh
 $ karma test
 ```
-#### Building for source
+### Building for source
 For production release:
 ```sh
 $ gulp build --prod
@@ -142,12 +150,12 @@ Verify the deployment by navigating to your server address in your preferred bro
 127.0.0.1:8000
 ```
 
-#### Kubernetes + Google Cloud
+### Kubernetes + Google Cloud
 
 See [KUBERNETES.md](https://github.com/joemccann/dillinger/blob/master/KUBERNETES.md)
 
 
-### Todos
+## Todos
 
  - Write MORE Tests
  - Add Night Mode
