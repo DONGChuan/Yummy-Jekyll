@@ -13,6 +13,7 @@ tags: [spring boot]
 
 ### 构建Maven项目
 在IDEA中分为`Project`和`Module`，`Project`类似于Eclipse的workspce，`Module`类似于Eclipse的`project`,所以我们先创建好`Project`，之后选择`File->New->Module`，选择`Spring Initializr`，然后Next，在本次开发中，设置`Group`为`com.example`，`Artifact`为'demo',其他为默认选项，一路Next知道建立完成，此时项目结构如下所示
+
 ![](https://raw.githubusercontent.com/MGXT/repository/master/spring/92SES887TFXI5.png)
 
 在这个目录结构中，java是存放后端代码的位置，resource是存放后端资源的位置，其中`resource/static`文件夹存放css，js等文件，`resource/templates`是存放html页面的地方。
