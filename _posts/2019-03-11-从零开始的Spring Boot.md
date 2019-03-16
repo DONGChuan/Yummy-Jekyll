@@ -35,5 +35,7 @@ public class HelloController {
 }
 ```
 这时候启动项目，用浏览器访问localhost:8080
-![](https://raw.githubusercontent.com/MGXT/repository/master/spring/2FWWDU{%29J8H}7_`FDM59R1S.png)
+
+![](https://raw.githubusercontent.com/MGXT/repository/master/spring/2FWWDUFDM59R1S.png)
+
 这样，最简单的spring bott项目就完成了
